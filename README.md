@@ -33,7 +33,7 @@ Visit RAVDESS Dataset.
 
 Download and extract the Audio_Speech_Actors_01-24.zip into the data/ folder.
 
-Usage
+# Usage
 1. Train the Model
 bash
 Copy
@@ -51,34 +51,5 @@ Predicted Emotion: calm
 3. Real-Time Prediction (Optional)
 Run the live emotion detection script (requires microphone):
 
-bash
-Copy
-python live_prediction.py
-Project Structure
-Copy
-SpeechEmotionRecognition/
-├── data/                   # RAVDESS dataset (not included in repo)
-├── models/                 # Saved ML models
-├── utils/                  # Utility scripts
-│   ├── feature_extraction.py
-│   └── load_data.py
-├── train_model.py          # Train the emotion classifier
-├── predict.py              # Predict emotion from a file
-├── live_prediction.py      # Real-time emotion detection
-├── requirements.txt        # Dependencies
-└── README.md
-Contributing
-Contributions are welcome! Here’s how:
-
-Fork the repository.
-
-Create a new branch: git checkout -b feature/your-feature.
-
-Commit changes: git commit -m "Add your feature".
-
-Push to the branch: git push origin feature/your-feature.
-
-Open a pull request.
-
-License
+# License
 This project is licensed under the MIT License. See LICENSE for details.
